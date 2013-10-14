@@ -1,0 +1,8 @@
+name: diffbot
+version: 0.1.0
+author: Claudio d'Angelis <claudiodangelis@gmail.com>
+description: A diffbot client for Dart
+dependencies:
+  js: any
+dev_dependencies:
+  unittest: any

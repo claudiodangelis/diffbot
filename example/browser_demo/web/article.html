@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>index</title>
+  </head>
+
+  <body>
+    <p>Article URL:
+      <input id="input" placeholder="Insert an article's URL" type="text">
+      <button id="btn">Analyze article</button>
+    </p>
+    <hr/>
+    <p><b>Title:</b> <span id="title"></span></p>
+    <p><b>Author:</b> <span id="author"></span></p>
+    <p><b>Date: </b> <span id="date"></span></p>
+    <div id="content"></div>
+    <script type="application/dart" src="article.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+    <script src="packages/browser/interop.js"></script>
+  </body>
+</html>
