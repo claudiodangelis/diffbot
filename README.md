@@ -1,7 +1,7 @@
 #Diffbot
 A Dart client library for **Diffbot** APIs.
 
-_Q: What is diffbot?_  
+_Q: What is Diffbot?_  
 _A: Diffbot is "a visual learning robot that identifies and extracts the important parts of any web page"_
 
 ## Supported APIs:
@@ -19,12 +19,12 @@ It works both in the browser and in the console.
 	import 'package:diffbot/diffbot_browser.dart';
 	main() {
 	  var client = new Client('YOUR_TOKEN');
-	  client.getArticle('http://www.aweso.me/blog/post').then((Article article)
-	    doSomethingWithMy(article);
+	  client.getArticle('http://www.aweso.me/blog/post').then((Article article) {
+	    doSomethingWith(article);
 	    // you can use article's title, date, author, metadata, etc:
 	    // article.title
 	    // article.date
-	  );
+	  });
 	}
     
 
@@ -35,7 +35,7 @@ It works both in the browser and in the console.
 	  var client = new Client('YOUR_TOKEN');
 	  client.getFrontpage('http://yourfavorite.newspaper.com').then((Frontpage fp) {
 	    // see documentation
-	});
+	  });
 	}
 
 ## Status
@@ -50,14 +50,14 @@ See `example/` directory.
 
 ## Documentation
 
-Documentation can be found at [http://claudiodangelis.com/docs/diffbot](http://claudiodangelis.com/docs/diffbot).
+Official Diffbot APIs documentation can be found at [http://diffbot.com/products/automatic/](http://diffbot.com/products/automatic/)
+
+Dart documentation can be found at [http://claudiodangelis.com/docs/diffbot](http://claudiodangelis.com/docs/diffbot).
 
 ## License
 
 BSD 2-Clause License. See _LICENSE_.
 
-## Authors
+## Reporting bugs
 
-- [Claudio d'Angelis](http://claudiodangelis.com/+)
-- _You?_
-
+You can file bugs at [diffbot/issues](https://github.com/claudiodangelis/diffbot/issues).

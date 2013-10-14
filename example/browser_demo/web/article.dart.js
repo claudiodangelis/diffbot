@@ -112,7 +112,7 @@ $$.Closure$4 = [P, {"": "Closure;call$4,$name"}];
 
 $$.Closure$5 = [P, {"": "Closure;call$5,$name"}];
 
-init.mangledNames = {$$dom_addEventListener$3: "$dom_addEventListener:3:0", $$dom_removeEventListener$3: "$dom_removeEventListener:3:0", $add: "+:1:0", $and: "&:1:0", $ge: ">=:1:0", $gt: ">:1:0", $index: "[]:1:0", $indexSet: "[]=:2:0", $le: "<=:1:0", $lt: "<:1:0", $mul: "*:1:0", $shl: "<<:1:0", $shr: ">>:1:0", $sub: "-:1:0", $xor: "^:1:0", __isolate_helper$_callback$2: "_callback:2:0", _addError$1: "_addError:1:0", _async$_add$1: "_add:1:0", _complete$1: "_complete:1:0", _completeError$1: "_completeError:1:0", _initCustomEvent$4: "_initCustomEvent:4:0", _onError$1: "_onError:1:0", _onValue$1: "_onValue:1:0", _removeListeners$0: "_removeListeners:0:0", _replaceChild$2: "_replaceChild:2:0", _setError$1: "_setError:1:0", _setValue$1: "_setValue:1:0", _whenCompleteAction$0: "_whenCompleteAction:0:0", abs$0: "abs:0:0", add$1: "add:1:0", allowsAttribute$3: "allowsAttribute:3:0", allowsElement$1: "allowsElement:1:0", allowsUri$1: "allowsUri:1:0", bindCallback$2$runGuarded: "bindCallback:2:0:runGuarded", bindUnaryCallback$2$runGuarded: "bindUnaryCallback:2:0:runGuarded", call$0: "call:0:0", call$1: "call:1:0", call$2: "call:2:0", call$2$html: "call:2:0:html", call$2$onError: "call:2:0:onError", call$2$runGuarded: "call:2:0:runGuarded", call$2$treeSanitizer: "call:2:0:treeSanitizer", call$2$validator: "call:2:0:validator", call$3: "call:3:0", call$3$onDone$onError: "call:3:0:onDone:onError", call$3$treeSanitizer$validator: "call:3:0:treeSanitizer:validator", call$4: "call:4:0", call$4$cancelOnError$onDone$onError: "call:4:0:cancelOnError:onDone:onError", call$5: "call:5:0", callSync$1: "callSync:1:0", catchError$1: "catchError:1:0", codeUnitAt$1: "codeUnitAt:1:0", createTimer$2: "createTimer:2:0", deserializeCloseToken$1: "deserializeCloseToken:1:0", deserializeIsolateSink$1: "deserializeIsolateSink:1:0", deserializeSendPort$1: "deserializeSendPort:1:0", endsWith$1: "endsWith:1:0", eval$1: "eval:1:0", forEach$1: "forEach:1:0", get$__isolate_helper$_callback: "_callback", get$__isolate_helper$_id: "_id", get$_collection$_value: "_value", get$_contents: "_contents", get$_duration: "_duration", get$_element: "_element", get$_error: "_error", get$_errorTest: "_errorTest", get$_errorZone: "_errorZone", get$_hasError: "_hasError", get$_isChained: "_isChained", get$_isComplete: "_isComplete", get$_key: "_key", get$_name: "_name", get$_next: "_next", get$_nextListener: "_nextListener", get$_onError: "_onError", get$_onValue: "_onValue", get$_previous: "_previous", get$_specification: "_specification", get$_value: "_value", get$_whenCompleteAction: "_whenCompleteAction", get$_zone: "_zone", get$attributes: "attributes", get$author: "author", get$createTimer: "createTimer", get$current: "current", get$date: "date", get$detail: "detail", get$handleUncaughtError: "handleUncaughtError", get$hostname: "hostname", get$href: "href", get$html: "html", get$inMilliseconds: "inMilliseconds", get$isGetter: "isGetter", get$isSetter: "isSetter", get$isolateStatics: "isolateStatics", get$iterator: "iterator", get$keys: "keys", get$lastChild: "lastChild", get$length: "length", get$memberName: "memberName", get$name: "name", get$namedArguments: "namedArguments", get$next: "next", get$nodeType: "nodeType", get$nodes: "nodes", get$parent: "parent", get$port: "port", get$positionalArguments: "positionalArguments", get$previousNode: "previousNode", get$protocol: "protocol", get$registerCallback: "registerCallback", get$registerUnaryCallback: "registerUnaryCallback", get$run: "run", get$runUnary: "runUnary", get$scheduleMicrotask: "scheduleMicrotask", get$src: "src", get$tagName: "tagName", get$title: "title", get$type: "type", get$uriPolicy: "uriPolicy", get$value: "value", handleUncaughtError$1: "handleUncaughtError:1:0", inSameErrorZone$1: "inSameErrorZone:1:0", indexOf$1: "indexOf:1:0", keys$1: "keys:1:0", lookup$1: "lookup:1:0", map$1: "map:1:0", matchAsPrefix$2: "matchAsPrefix:2:0", moveNext$0: "moveNext:0:0", perform$1: "perform:1:0", process$0: "process:0:0", push$1: "push:1:0", registerCallback$1: "registerCallback:1:0", registerUnaryCallback$1: "registerUnaryCallback:1:0", remove$0: "remove:0:0", remove$1: "remove:1:0", replaceWith$1: "replaceWith:1:0", round$0: "round:0:0", run$1: "run:1:0", runGuarded$1: "runGuarded:1:0", runUnaryGuarded$2: "runUnaryGuarded:2:0", scheduleMicrotask$1: "scheduleMicrotask:1:0", send$2: "send:2:0", set$_collection$_value: "_value=", set$_isChained: "_isChained=", set$_next: "_next=", set$_nextListener: "_nextListener=", set$_previous: "_previous=", set$href: "href=", set$length: "length=", set$next: "next=", set$src: "src=", set$type: "type=", skip$1: "skip:1:0", splice$2: "splice:2:0", split$1: "split:1:0", startsWith$1: "startsWith:1:0", substring$1: "substring:1:0", substring$2: "substring:2:0", then$1: "then:1:0", then$2$onError: "then:2:0:onError", toJs$0: "toJs:0:0", toJson$0: "toJson:0:0", toList$0: "toList:0:0", toLowerCase$0: "toLowerCase:0:0", toSendPort$0: "toSendPort:0:0", toUpperCase$0: "toUpperCase:0:0", trim$0: "trim:0:0", visitCloseToken$1: "visitCloseToken:1:0", visitIsolateSink$1: "visitIsolateSink:1:0", visitList$1: "visitList:1:0", visitMap$1: "visitMap:1:0", visitPrimitive$1: "visitPrimitive:1:0", visitSendPort$1: "visitSendPort:1:0", visitSendPortSync$1: "visitSendPortSync:1:0", write$1: "write:1:0", writeAll$2: "writeAll:2:0"};
+init.mangledNames = {$$dom_addEventListener$3: "$dom_addEventListener:3:0", $$dom_removeEventListener$3: "$dom_removeEventListener:3:0", $add: "+:1:0", $and: "&:1:0", $ge: ">=:1:0", $gt: ">:1:0", $index: "[]:1:0", $indexSet: "[]=:2:0", $le: "<=:1:0", $lt: "<:1:0", $mul: "*:1:0", $shl: "<<:1:0", $shr: ">>:1:0", $sub: "-:1:0", $xor: "^:1:0", __isolate_helper$_callback$2: "_callback:2:0", _addError$1: "_addError:1:0", _async$_add$1: "_add:1:0", _complete$1: "_complete:1:0", _completeError$1: "_completeError:1:0", _initCustomEvent$4: "_initCustomEvent:4:0", _onError$1: "_onError:1:0", _onValue$1: "_onValue:1:0", _removeListeners$0: "_removeListeners:0:0", _replaceChild$2: "_replaceChild:2:0", _setError$1: "_setError:1:0", _setValue$1: "_setValue:1:0", _whenCompleteAction$0: "_whenCompleteAction:0:0", abs$0: "abs:0:0", add$1: "add:1:0", allowsAttribute$3: "allowsAttribute:3:0", allowsElement$1: "allowsElement:1:0", allowsUri$1: "allowsUri:1:0", bindCallback$2$runGuarded: "bindCallback:2:0:runGuarded", bindUnaryCallback$2$runGuarded: "bindUnaryCallback:2:0:runGuarded", call$0: "call:0:0", call$1: "call:1:0", call$2: "call:2:0", call$2$html: "call:2:0:html", call$2$onError: "call:2:0:onError", call$2$runGuarded: "call:2:0:runGuarded", call$2$treeSanitizer: "call:2:0:treeSanitizer", call$2$validator: "call:2:0:validator", call$3: "call:3:0", call$3$onDone$onError: "call:3:0:onDone:onError", call$3$treeSanitizer$validator: "call:3:0:treeSanitizer:validator", call$4: "call:4:0", call$4$cancelOnError$onDone$onError: "call:4:0:cancelOnError:onDone:onError", call$5: "call:5:0", callSync$1: "callSync:1:0", catchError$1: "catchError:1:0", codeUnitAt$1: "codeUnitAt:1:0", createTimer$2: "createTimer:2:0", deserializeCloseToken$1: "deserializeCloseToken:1:0", deserializeIsolateSink$1: "deserializeIsolateSink:1:0", deserializeSendPort$1: "deserializeSendPort:1:0", endsWith$1: "endsWith:1:0", eval$1: "eval:1:0", forEach$1: "forEach:1:0", get$__isolate_helper$_callback: "_callback", get$__isolate_helper$_id: "_id", get$_collection$_value: "_value", get$_contents: "_contents", get$_duration: "_duration", get$_element: "_element", get$_error: "_error", get$_errorTest: "_errorTest", get$_errorZone: "_errorZone", get$_hasError: "_hasError", get$_isChained: "_isChained", get$_isComplete: "_isComplete", get$_key: "_key", get$_name: "_name", get$_next: "_next", get$_nextListener: "_nextListener", get$_onError: "_onError", get$_onValue: "_onValue", get$_previous: "_previous", get$_specification: "_specification", get$_value: "_value", get$_whenCompleteAction: "_whenCompleteAction", get$_zone: "_zone", get$attributes: "attributes", get$author: "author", get$createTimer: "createTimer", get$current: "current", get$date: "date", get$detail: "detail", get$handleUncaughtError: "handleUncaughtError", get$hostname: "hostname", get$href: "href", get$html: "html", get$inMilliseconds: "inMilliseconds", get$isGetter: "isGetter", get$isSetter: "isSetter", get$isolateStatics: "isolateStatics", get$iterator: "iterator", get$keys: "keys", get$lastChild: "lastChild", get$length: "length", get$memberName: "memberName", get$name: "name", get$namedArguments: "namedArguments", get$next: "next", get$nodeType: "nodeType", get$nodes: "nodes", get$parent: "parent", get$port: "port", get$positionalArguments: "positionalArguments", get$previousNode: "previousNode", get$protocol: "protocol", get$registerCallback: "registerCallback", get$registerUnaryCallback: "registerUnaryCallback", get$run: "run", get$runUnary: "runUnary", get$scheduleMicrotask: "scheduleMicrotask", get$src: "src", get$tagName: "tagName", get$title: "title", get$type: "type", get$uriPolicy: "uriPolicy", get$url: "url", get$value: "value", handleUncaughtError$1: "handleUncaughtError:1:0", inSameErrorZone$1: "inSameErrorZone:1:0", indexOf$1: "indexOf:1:0", keys$1: "keys:1:0", lookup$1: "lookup:1:0", map$1: "map:1:0", matchAsPrefix$2: "matchAsPrefix:2:0", moveNext$0: "moveNext:0:0", perform$1: "perform:1:0", process$0: "process:0:0", push$1: "push:1:0", registerCallback$1: "registerCallback:1:0", registerUnaryCallback$1: "registerUnaryCallback:1:0", remove$0: "remove:0:0", remove$1: "remove:1:0", replaceWith$1: "replaceWith:1:0", round$0: "round:0:0", run$1: "run:1:0", runGuarded$1: "runGuarded:1:0", runUnaryGuarded$2: "runUnaryGuarded:2:0", scheduleMicrotask$1: "scheduleMicrotask:1:0", send$2: "send:2:0", set$_collection$_value: "_value=", set$_isChained: "_isChained=", set$_next: "_next=", set$_nextListener: "_nextListener=", set$_previous: "_previous=", set$href: "href=", set$length: "length=", set$next: "next=", set$src: "src=", set$type: "type=", skip$1: "skip:1:0", splice$2: "splice:2:0", split$1: "split:1:0", startsWith$1: "startsWith:1:0", substring$1: "substring:1:0", substring$2: "substring:2:0", then$1: "then:1:0", then$2$onError: "then:2:0:onError", toJs$0: "toJs:0:0", toJson$0: "toJson:0:0", toList$0: "toList:0:0", toLowerCase$0: "toLowerCase:0:0", toSendPort$0: "toSendPort:0:0", toUpperCase$0: "toUpperCase:0:0", trim$0: "trim:0:0", visitCloseToken$1: "visitCloseToken:1:0", visitIsolateSink$1: "visitIsolateSink:1:0", visitList$1: "visitList:1:0", visitMap$1: "visitMap:1:0", visitPrimitive$1: "visitPrimitive:1:0", visitSendPort$1: "visitSendPort:1:0", visitSendPortSync$1: "visitSendPortSync:1:0", write$1: "write:1:0", writeAll$2: "writeAll:2:0"};
 (function (reflectionData) {
   function map(x){x={x:x};delete x.x;return x}
   if (!init.libraries) init.libraries = [];
@@ -3923,6 +3923,11 @@ Article: {"": "Object;_data-",
     return t1.$index(t1, "author");
   },
   "+author": 1,
+  get$url: function(_) {
+    var t1 = this._data;
+    return t1.$index(t1, "url");
+  },
+  "+url": 1,
   get$html: function(_) {
     var t1 = this._data;
     return t1.$index(t1, "html");
@@ -3938,16 +3943,32 @@ Article: {"": "Object;_data-",
 "+Article": []}],
 ["article.dart", "article.dart", , T, {
 main: function() {
-  var client, t1, t2;
+  var client, t1, t2, t3, try1, try2;
+  J.set$src$x($.get$loading(), "ajax-loader.gif");
   client = new Q.Client("7bcff9646ab24ac43267113204379e22", null, "http://www.diffbot.com/api/article", "http://www.diffbot.com/api/frontpage", "http://api.diffbot.com/v2/product");
   client.getArticle$2$html("http://techcrunch.com/2013/09/29/generation-touch-will-redraw-consumer-tech/", true).then$2$onError(new T.main_closure(), new T.main_closure0());
   t1 = $.get$btn();
   t1.toString;
-  t1 = new W._ElementEventStreamImpl(t1, C.EventStreamProvider_click._eventType, false);
+  t2 = C.EventStreamProvider_click._eventType;
+  t1 = new W._ElementEventStreamImpl(t1, t2, false);
   H.setRuntimeTypeInfo(t1, [null]);
-  t2 = new W._EventStreamSubscription(0, t1._target, t1._eventType, W._EventStreamSubscription__wrapZone(new T.main_closure1(client)), t1._useCapture);
-  H.setRuntimeTypeInfo(t2, [H.getRuntimeTypeArgument(t1, "_EventStream", 0)]);
-  t2._tryResume$0();
+  t3 = new W._EventStreamSubscription(0, t1._target, t1._eventType, W._EventStreamSubscription__wrapZone(new T.main_closure1(client)), t1._useCapture);
+  H.setRuntimeTypeInfo(t3, [H.getRuntimeTypeArgument(t1, "_EventStream", 0)]);
+  t3._tryResume$0();
+  try1 = document.querySelector("#try1");
+  try1.toString;
+  t3 = new W._ElementEventStreamImpl(try1, t2, false);
+  H.setRuntimeTypeInfo(t3, [null]);
+  t1 = new W._EventStreamSubscription(0, t3._target, t3._eventType, W._EventStreamSubscription__wrapZone(new T.main_closure2(client, try1)), t3._useCapture);
+  H.setRuntimeTypeInfo(t1, [H.getRuntimeTypeArgument(t3, "_EventStream", 0)]);
+  t1._tryResume$0();
+  try2 = document.querySelector("#try2");
+  try2.toString;
+  t2 = new W._ElementEventStreamImpl(try2, t2, false);
+  H.setRuntimeTypeInfo(t2, [null]);
+  t1 = new W._EventStreamSubscription(0, t2._target, t2._eventType, W._EventStreamSubscription__wrapZone(new T.main_closure3(client, try2)), t2._useCapture);
+  H.setRuntimeTypeInfo(t1, [H.getRuntimeTypeArgument(t2, "_EventStream", 0)]);
+  t1._tryResume$0();
 },
 
 "+main:0:0": 1,
@@ -3960,11 +3981,13 @@ displayResults: function(article) {
   t1.push(W._TemplatingNodeValidator$());
   _validator.allowCustomElement$4$attributes$uriAttributes$uriPolicy("a", ["href"], null, null);
   _validator.allowCustomElement$4$attributes$uriAttributes$uriPolicy("img", ["src"], null, null);
+  J.set$src$x($.get$loading(), "");
   t1 = J.getInterceptor$x(article);
   $.get$title().textContent = t1.get$title(article);
   $.get$author().textContent = article.get$author();
   $.get$date().textContent = J.toString$0(article.get$date());
   J.setInnerHtml$2$validator$x($.get$content(), t1.get$html(article), _validator);
+  $.get$url().textContent = t1.get$url(article);
 },
 
 "+displayResults:1:0": 1,
@@ -3991,8 +4014,10 @@ main_closure0: {"": "Closure;",
 
 main_closure1: {"": "Closure;client_0-",
   call$1: function(e) {
-    if (J.get$value$x($.get$input()) !== "")
+    if (J.get$value$x($.get$input()) !== "") {
+      J.set$src$x($.get$loading(), "ajax-loader.gif");
       this.client_0.getArticle$2$html(J.get$value$x($.get$input()), true).then$2$onError(new T.main__closure(), new T.main__closure0());
+    }
   },
   "+call:1:0": 1,
   $isFunction: true
@@ -4013,6 +4038,48 @@ main__closure: {"": "Closure;",
 main__closure0: {"": "Closure;",
   call$1: function(e) {
     $.get$content().textContent = J.toString$0(e);
+  },
+  "+call:1:0": 1,
+  $isFunction: true
+},
+
+"+main__closure": [],
+
+main_closure2: {"": "Closure;client_1-,try1_2-",
+  call$1: function(e) {
+    J.set$src$x($.get$loading(), "ajax-loader.gif");
+    this.client_1.getArticle$2$html(this.try1_2.textContent, true).then$1(new T.main__closure1());
+  },
+  "+call:1:0": 1,
+  $isFunction: true
+},
+
+"+main_closure": [],
+
+main__closure1: {"": "Closure;",
+  call$1: function(article) {
+    T.displayResults(article);
+  },
+  "+call:1:0": 1,
+  $isFunction: true
+},
+
+"+main__closure": [],
+
+main_closure3: {"": "Closure;client_3-,try2_4-",
+  call$1: function(e) {
+    J.set$src$x($.get$loading(), "ajax-loader.gif");
+    this.client_3.getArticle$2$html(this.try2_4.textContent, true).then$1(new T.main__closure2());
+  },
+  "+call:1:0": 1,
+  $isFunction: true
+},
+
+"+main_closure": [],
+
+main__closure2: {"": "Closure;",
+  call$1: function(article) {
+    T.displayResults(article);
   },
   "+call:1:0": 1,
   $isFunction: true
@@ -9730,6 +9797,10 @@ Object: {"": ";",
     return this.noSuchMethod$1(this, H.createInvocationMirror("uriPolicy", "get$uriPolicy", 1, [], []));
   },
   "+uriPolicy": 1,
+  get$url: function($receiver) {
+    return this.noSuchMethod$1(this, H.createInvocationMirror("url", "get$url", 1, [], []));
+  },
+  "+url": 1,
   get$value: function($receiver) {
     return this.noSuchMethod$1(this, H.createInvocationMirror("value", "get$value", 1, [], []));
   },
@@ -11490,6 +11561,10 @@ BaseElement: {"": "HtmlElement;href}-"},
 
 "+BaseElement": [],
 
+BeforeLoadEvent: {"": "Event;url=-"},
+
+"+BeforeLoadEvent": [],
+
 BodyElement: {"": "HtmlElement;", $isBodyElement: true},
 
 "+BodyElement": [],
@@ -11855,6 +11930,10 @@ ProgressElement: {"": "HtmlElement;value=-"},
 
 "+ProgressElement": [],
 
+ProgressEvent: {"": "Event;"},
+
+"+ProgressEvent": [],
+
 Range: {"": "Interceptor;",
   toString$0: function(receiver) {
     return receiver.toString();
@@ -11863,6 +11942,10 @@ Range: {"": "Interceptor;",
 },
 
 "+Range": [],
+
+ResourceProgressEvent: {"": "ProgressEvent;url=-"},
+
+"+ResourceProgressEvent": [],
 
 ScriptElement: {"": "HtmlElement;src}-,type}-"},
 
@@ -11875,6 +11958,10 @@ SelectElement: {"": "HtmlElement;length=-,name=-,value=-"},
 SourceElement: {"": "HtmlElement;src}-,type}-"},
 
 "+SourceElement": [],
+
+StorageEvent: {"": "Event;url=-"},
+
+"+StorageEvent": [],
 
 StyleElement: {"": "HtmlElement;type}-"},
 
@@ -14262,10 +14349,10 @@ init.globalFunctions._Html5NodeValidator__uriAttributeValidator$closure = W._Htm
 init.globalFunctions._serialize$closure = Q._serialize$closure = new H.Closure$1(Q._serialize, "_serialize$closure");
 init.globalFunctions._deserialize$closure = Q._deserialize$closure = new H.Closure$1(Q._deserialize, "_deserialize$closure");
 // Runtime type support
-J.JSInt.$isint = true;
-J.JSInt.$isObject = true;
 W.Node.$isNode = true;
 W.Node.$isObject = true;
+J.JSInt.$isint = true;
+J.JSInt.$isObject = true;
 J.JSString.$isString = true;
 J.JSString.$isObject = true;
 J.JSNumber.$isObject = true;
@@ -14322,10 +14409,10 @@ P._EventSink.$is_EventSink = true;
 P._EventSink.$isObject = true;
 P.Stream.$isStream = true;
 P.Stream.$isObject = true;
-W.NodeValidator.$isNodeValidator = true;
-W.NodeValidator.$isObject = true;
 P._DelayedEvent.$is_DelayedEvent = true;
 P._DelayedEvent.$isObject = true;
+W.NodeValidator.$isNodeValidator = true;
+W.NodeValidator.$isObject = true;
 P.StreamSubscription.$isStreamSubscription = true;
 P.StreamSubscription.$isObject = true;
 P.DateTime.$isDateTime = true;
@@ -14638,6 +14725,9 @@ J.set$href$x = function(receiver, value) {
 J.set$length$asx = function(receiver, value) {
   return J.getInterceptor$asx(receiver).set$length(receiver, value);
 };
+J.set$src$x = function(receiver, value) {
+  return J.getInterceptor$x(receiver).set$src(receiver, value);
+};
 J.set$type$x = function(receiver, value) {
   return J.getInterceptor$x(receiver).set$type(receiver, value);
 };
@@ -14729,6 +14819,9 @@ Isolate.$lazy($, "date", "date", "get$date", function() {
 Isolate.$lazy($, "author", "author", "get$author", function() {
   return document.querySelector("#author");
 });
+Isolate.$lazy($, "url", "url", "get$url", function() {
+  return document.querySelector("#url");
+});
 Isolate.$lazy($, "content", "content", "get$content", function() {
   return document.querySelector("#content");
 });
@@ -14737,6 +14830,9 @@ Isolate.$lazy($, "input", "input", "get$input", function() {
 });
 Isolate.$lazy($, "btn", "btn", "get$btn", function() {
   return document.querySelector("#btn");
+});
+Isolate.$lazy($, "loading", "loading", "get$loading", function() {
+  return document.querySelector("#loading");
 });
 Isolate.$lazy($, "_toStringList", "IterableMixinWorkaround__toStringList", "get$IterableMixinWorkaround__toStringList", function() {
   return P.List_List(null, null);
@@ -14783,6 +14879,8 @@ H.defineNativeMethods("HTMLAreaElement", W.AreaElement);
 
 H.defineNativeMethods("HTMLBaseElement", W.BaseElement);
 
+H.defineNativeMethods("BeforeLoadEvent", W.BeforeLoadEvent);
+
 H.defineNativeMethods("HTMLBodyElement", W.BodyElement);
 
 H.defineNativeMethods("HTMLButtonElement", W.ButtonElement);
@@ -14801,7 +14899,7 @@ H.defineNativeMethodsNonleaf("Element", W.Element);
 
 H.defineNativeMethods("HTMLEmbedElement", W.EmbedElement);
 
-H.defineNativeMethods("AudioProcessingEvent|AutocompleteErrorEvent|BeforeLoadEvent|CSSFontFaceLoadEvent|CloseEvent|DeviceMotionEvent|DeviceOrientationEvent|ErrorEvent|HashChangeEvent|IDBVersionChangeEvent|MIDIMessageEvent|MediaKeyEvent|MediaKeyMessageEvent|MediaKeyNeededEvent|MediaStreamEvent|MediaStreamTrackEvent|MessageEvent|MutationEvent|OfflineAudioCompletionEvent|OverflowEvent|PageTransitionEvent|PopStateEvent|ProgressEvent|RTCDTMFToneChangeEvent|RTCDataChannelEvent|RTCIceCandidateEvent|ResourceProgressEvent|SecurityPolicyViolationEvent|SpeechInputEvent|SpeechRecognitionError|SpeechRecognitionEvent|SpeechSynthesisEvent|StorageEvent|TrackEvent|TransitionEvent|WebGLContextEvent|WebKitAnimationEvent|WebKitTransitionEvent|XMLHttpRequestProgressEvent", W.Event);
+H.defineNativeMethods("AudioProcessingEvent|AutocompleteErrorEvent|CSSFontFaceLoadEvent|CloseEvent|DeviceMotionEvent|DeviceOrientationEvent|ErrorEvent|HashChangeEvent|IDBVersionChangeEvent|MIDIMessageEvent|MediaKeyEvent|MediaKeyMessageEvent|MediaKeyNeededEvent|MediaStreamEvent|MediaStreamTrackEvent|MessageEvent|MutationEvent|OfflineAudioCompletionEvent|OverflowEvent|PageTransitionEvent|PopStateEvent|RTCDTMFToneChangeEvent|RTCDataChannelEvent|RTCIceCandidateEvent|SecurityPolicyViolationEvent|SpeechInputEvent|SpeechRecognitionError|SpeechRecognitionEvent|SpeechSynthesisEvent|TrackEvent|TransitionEvent|WebGLContextEvent|WebKitAnimationEvent|WebKitTransitionEvent", W.Event);
 
 H.defineNativeMethodsNonleaf("Event", W.Event);
 
@@ -14867,13 +14965,21 @@ H.defineNativeMethods("HTMLParamElement", W.ParamElement);
 
 H.defineNativeMethods("HTMLProgressElement", W.ProgressElement);
 
+H.defineNativeMethods("XMLHttpRequestProgressEvent", W.ProgressEvent);
+
+H.defineNativeMethodsNonleaf("ProgressEvent", W.ProgressEvent);
+
 H.defineNativeMethods("Range", W.Range);
+
+H.defineNativeMethods("ResourceProgressEvent", W.ResourceProgressEvent);
 
 H.defineNativeMethods("HTMLScriptElement", W.ScriptElement);
 
 H.defineNativeMethods("HTMLSelectElement", W.SelectElement);
 
 H.defineNativeMethods("HTMLSourceElement", W.SourceElement);
+
+H.defineNativeMethods("StorageEvent", W.StorageEvent);
 
 H.defineNativeMethods("HTMLStyleElement", W.StyleElement);
 
