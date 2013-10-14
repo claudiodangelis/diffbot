@@ -25,15 +25,13 @@ DateTime getDate(String date) {
   // Indices:     0  1   2    3        4   5
   
   // Check if returned string is in the expected form
-  // (diffbot defect, it might return relative datetimes
-  // e.g. "posted 1 hour ago")
+  // (diffbot might return relative datetimes, e.g. "posted 1 hour ago")
   RegExp reg = new  RegExp('^(Mon|Tue|Wed|Thu|Fri|Sat|Sun), [0-9]{1,2} '
       '(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) '
       '[0-9]{4} [0-9]{2}:[0-9]{2}:[0-9]{2} GMT\$');
 
   if (!reg.hasMatch(date)) return null; //TODO: this is a temporary solution
   
-
   var _months = {"Jan":"1","Feb":"2","Mar":"3","Apr":"4","May":"5","Jun":"6",
                 "Jul":"7","Aug":"8","Sep":"9","Oct":"10","Nov":"11","Dec":"12"};
   List<String> _dateParts = date.split(" ");

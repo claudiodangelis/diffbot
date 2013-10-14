@@ -16,7 +16,6 @@ class Client extends BaseClient {
         "&url=" + url + _queryString);
     
     Map data = {};
-    
     Completer<Article> completer = new Completer();
     new HttpClient().getUrl(Uri.parse(requestUrl))
       .then((HttpClientRequest req) {
@@ -142,7 +141,6 @@ class Client extends BaseClient {
           resp.transform(new Utf8Decoder()).listen((_incomingData) {
             _responseBuffer.write(_incomingData);
           }).onDone((){
-            // qua comincia la danza
             Map _data = JSON.decode(_responseBuffer.toString());
             if(_data["error"] == null) {
               // Global response

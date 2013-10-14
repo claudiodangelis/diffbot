@@ -12,7 +12,6 @@ import 'src/shared/frontpage.dart';
 export 'src/shared/frontpage.dart';
 import 'src/shared/product.dart';
 export 'src/shared/product.dart';
-
 import 'src/shared/errors.dart';
 export 'src/shared/errors.dart';
 import 'src/shared/utils.dart';

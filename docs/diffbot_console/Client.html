@@ -49,7 +49,6 @@ class Client extends BaseClient {
        "&amp;url=" + url + _queryString);
    
    Map data = {};
-   
    Completer&lt;Article&gt; completer = new Completer();
    new HttpClient().getUrl(Uri.parse(requestUrl))
      .then((HttpClientRequest req) {
@@ -175,7 +174,6 @@ class Client extends BaseClient {
          resp.transform(new Utf8Decoder()).listen((_incomingData) {
            _responseBuffer.write(_incomingData);
          }).onDone((){
-           // qua comincia la danza
            Map _data = JSON.decode(_responseBuffer.toString());
            if(_data["error"] == null) {
              // Global response
@@ -334,7 +332,6 @@ Future&lt;Article&gt; getArticle (String url, {bool meta:false, bool html:false,
      "&amp;url=" + url + _queryString);
  
  Map data = {};
- 
  Completer&lt;Article&gt; completer = new Completer();
  new HttpClient().getUrl(Uri.parse(requestUrl))
    .then((HttpClientRequest req) {
@@ -484,7 +481,6 @@ Future&lt;Product&gt; getProduct(String url, {int timeout}) {
        resp.transform(new Utf8Decoder()).listen((_incomingData) {
          _responseBuffer.write(_incomingData);
        }).onDone((){
-         // qua comincia la danza
          Map _data = JSON.decode(_responseBuffer.toString());
          if(_data["error"] == null) {
            // Global response
@@ -551,7 +547,7 @@ Future&lt;Product&gt; getProduct(String url, {int timeout}) {
         <div class="clear"></div>
         </div>
         <div class="footer">
-          <div>This page was generated at 2013-10-14 16:43:51.631</div>
+          <div>This page was generated at 2013-10-14 19:53:29.470</div>
         </div>
         <script async src="../client-live-nav.js"></script>
         </body></html>
