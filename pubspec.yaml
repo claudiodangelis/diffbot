@@ -5,6 +5,6 @@ description: A Dart client library for Diffbot APIs.
 homepage: https://github.com/claudiodangelis/diffbot
 documentation: http://claudiodangelis.com/docs/diffbot
 dependencies:
-  js: any
+  js: '>=0.0.25 <0.0.26'
 dev_dependencies:
   unittest: any
