@@ -1,10 +1,12 @@
 name: diffbot
-version: 0.1.0
+version: 0.1.1
 author: Claudio d'Angelis <claudiodangelis@gmail.com>
 description: A Dart client library for Diffbot APIs.
 homepage: https://github.com/claudiodangelis/diffbot
 documentation: http://claudiodangelis.com/docs/diffbot
+environment:
+  sdk: '>=0.8.10+6 <2.0.0'
 dependencies:
-  js: '>=0.0.25 <0.0.26'
+  js: '>=0.2.0 <0.3.0'
 dev_dependencies:
-  unittest: any
+  unittest: '>=0.9.0 <0.10.0'

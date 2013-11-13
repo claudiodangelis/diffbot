@@ -16,8 +16,9 @@ class Client extends BaseClient {
     String _queryString = getQueryString(params);
     String requestUrl = Uri.encodeFull(articleEndpoint + "?token=" + token +
         "&url=" + url + _queryString + "&callback=handler");
-    
-    js.context["handler"] = new js.Callback.once((js.Proxy _data) {
+
+
+    js.context.handler = ((js.Proxy _data) {
       Map data = {};
 
       if(_data["error"] == null) {
@@ -94,7 +95,7 @@ class Client extends BaseClient {
     String requestUrl = Uri.encodeFull(frontpageEndpoint + "?token=" + token +
         "&url=" + url + _queryString + "&format=json&callback=handler");
     
-    js.context["handler"] = new js.Callback.once((js.Proxy _data) {
+    js.context.handler = ((js.Proxy _data) {
       Map data = {}; //Native dart map
       data["title"] = _data["childNodes"][0]["childNodes"][0]["childNodes"][0];
       data["sourceType"] =
@@ -163,7 +164,7 @@ class Client extends BaseClient {
         "&url=" + url + _queryString + "&callback=handler");
     Map data = {}; //Global
     Map dataProd = {}; // Product
-    js.context["handler"] = new js.Callback.once((js.Proxy _data) {
+    js.context.handler = ((js.Proxy _data) {
       // Global response
       data.addAll({
         "type":_data["type"], "url":_data["url"],

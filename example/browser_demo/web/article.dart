@@ -2,14 +2,14 @@ import 'dart:async';
 import 'dart:html';
 import 'package:diffbot/diffbot_browser.dart';
 
-ParagraphElement title = query('#title');
-ParagraphElement date = query('#date');
-ParagraphElement author = query('#author');
-ParagraphElement url = query('#url');
-DivElement content  = query('#content');
-InputElement input = query('#input');
-ButtonElement btn = query('#btn');
-ImageElement loading = query('#loading');
+ParagraphElement title = querySelector('#title');
+ParagraphElement date = querySelector('#date');
+ParagraphElement author = querySelector('#author');
+ParagraphElement url = querySelector('#url');
+DivElement content  = querySelector('#content');
+InputElement input = querySelector('#input');
+ButtonElement btn = querySelector('#btn');
+ImageElement loading = querySelector('#loading');
 
 void main() {
   loading.src = 'ajax-loader.gif';
@@ -36,7 +36,7 @@ void main() {
   });
   
 
-  AnchorElement try1 = query('#try1');
+  AnchorElement try1 = querySelector('#try1');
   try1.onClick.listen((e) {
     loading.src = 'ajax-loader.gif';
     client.getArticle(try1.text,html:true).then((Article article) {
@@ -44,7 +44,7 @@ void main() {
     });
   });
   
-  AnchorElement try2 = query('#try2');
+  AnchorElement try2 = querySelector('#try2');
   try2.onClick.listen((e) {
     loading.src = 'ajax-loader.gif';
     client.getArticle(try2.text,html:true).then((Article article) {

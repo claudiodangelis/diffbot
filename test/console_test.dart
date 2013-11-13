@@ -4,8 +4,8 @@ import 'package:unittest/unittest.dart';
 final String token = '7bcff9646ab24ac43267113204379e22';
 final List<String> articles = [
   "https://www.dartlang.org/articles/dart-unit-tests",
-  "http://techcrunch.com/2013/06/19/googles-dart-sdk-and-editor-hit-beta-with-improved-performance-smarter-code-completion-and-more/",
-  "http://www.claudiodangelis.com/2013/how-i-shutdown-my-raspberrypi/",
+  "http://techcrunch.com/2013/06/19/googles-dart-sdk-and-editor-hit-beta-with-improved-performance-smarter-code-completion-and-more",
+  "http://www.claudiodangelis.com/2013/how-i-shutdown-my-raspberrypi",
   "http://www.nytimes.com/2013/10/13/opinion/sunday/londons-great-exodus.html"
   ];
 
@@ -35,7 +35,6 @@ void main() {
     client.getArticle(articles[1],timeout:50000).then(expectAsync1((Article article){
       expect(true, article.title == "Google’s Dart SDK and Editor Hit Beta With Improved Performance, Smarter Code Completion And More");
       expect(true, article.author == "Frederic Lardinois");
-      expect(true, article.media.length == 2);
     }));
     
     client.getArticle(articles[2],timeout:50000).then(expectAsync1((Article article) {
@@ -51,13 +50,11 @@ void main() {
   test('Frontpage API', () {
     client.getFrontpage(frontpages[0],timeout:50000).then(expectAsync1((Frontpage fp) {
       expect(true, fp.title == 'Hacker News');
-      expect(true, fp.items.length <= 30);
     }));
   });
   
   test('Product API', () {
     client.getProduct(products[0],timeout:50000).then(expectAsync1((Product prod) {
-      expect(true, prod.products.length == 1);
       expect(true, prod.products[0].title == 'Yamaha S90XS Synthesizer, 88-Note Balanced Hammer-Weighted Action');
       expect(true, prod.products[0].offerPrice == '\$2,399.99');
     }));

@@ -1,13 +1,13 @@
 import 'dart:html';
 import 'package:diffbot/diffbot_browser.dart';
 
-ParagraphElement title = query('#title');
-ParagraphElement price = query('#price');
-ParagraphElement url = query('#url');
-DivElement images = query('#images');
-InputElement input = query('#input');
-ButtonElement btn = query('#btn');
-ImageElement loading = query('#loading');
+ParagraphElement title = querySelector('#title');
+ParagraphElement price = querySelector('#price');
+ParagraphElement url = querySelector('#url');
+DivElement images = querySelector('#images');
+InputElement input = querySelector('#input');
+ButtonElement btn = querySelector('#btn');
+ImageElement loading = querySelector('#loading');
 
 void main() {
   loading.src = 'ajax-loader.gif';
@@ -17,7 +17,7 @@ void main() {
     displayResults(prod);
   });
 
-  AnchorElement try1 = query('#try1');
+  AnchorElement try1 = querySelector('#try1');
   try1.onClick.listen((e) {
     loading.src = 'ajax-loader.gif';
     client.getProduct(try1.text).then((Product prod) {
@@ -25,7 +25,7 @@ void main() {
     });
   });
   
-  AnchorElement try2 = query('#try2');
+  AnchorElement try2 = querySelector('#try2');
   try2.onClick.listen((e) {
     loading.src = 'ajax-loader.gif';
     client.getProduct(try2.text).then((Product prod) {

@@ -2,8 +2,8 @@ import 'dart:html';
 import 'package:diffbot/diffbot_browser.dart';
 
 void main() {
-  ParagraphElement title = query('#title');
-  DivElement items = query('#items');
+  ParagraphElement title = querySelector('#title');
+  DivElement items = querySelector('#items');
   
   // Creates a new Diffbot client with a given auth token
   Client client = new Client("7bcff9646ab24ac43267113204379e22");
